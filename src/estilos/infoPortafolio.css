@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('./header.css');
+@import url('./mediaquerys.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins';
+}    
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 20px;
+}
+.container-main{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display-none{
+    display: none;
+}
+main h1{
+    margin-bottom: 0;
+}
+main span{
+    font-size: 1.2rem;
+}
+.descripcion, .tecnologias-container{
+    padding: 20px;
+}
+.proyecto > div {
+    margin-bottom: 20px;
+}
+.titulo hr{
+    margin-top: 10px;
+}
+.links-vista{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.tecnologias-container ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.tecnologias-container li{
+    background-color: rgb(225, 225, 225);
+    padding: 15px 20px;
+    border-radius: 20px;
+    min-width: 120px;
+    text-align: center;
+}
+.imagenes-evidencia{
+    margin-top:10px;
+}
+.imagenes-evidencia img{
+    width: 100%;
+}
+.seccion-main > span:first-child{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.btn-download-cv{
+    background: linear-gradient(90deg, rgba(0,112,255,1) 0%, rgba(3,86,192,1) 100%);
+    border: none;    
+    border-radius:10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    height: 45px;
+}
+.btn-download-cv:hover{
+    transform: scale(1.09);
+}
+.error-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.error{
+    font-size: 3rem;
+}

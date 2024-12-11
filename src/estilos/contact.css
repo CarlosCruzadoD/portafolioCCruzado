@@ -1,0 +1,126 @@
+.contact-page{
+    background-color: white;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 50px 50px 0 0;
+    padding: 60px 20px;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.overlay-contact{    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.icon-contact-container{
+    flex: 1;    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1.5;
+    order: 1;
+}
+.icon-contact{
+    background-color: white;    
+    border-radius: 50%;
+    width: 60vw;
+    height: 60vw;
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/icons/contact-icon.png);
+    background-position: center;
+    background-size: cover;
+}
+#home{
+    width: 100%;
+}
+.title-contact{
+    margin-bottom: 100px;
+}
+
+.title-contact h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contact-page h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.btn-contact{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn-contact i{
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 2rem;
+}
+.red-social-contact {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.red-social-contact span{
+    display: block;
+    margin: 10px 0;
+}
+
+.correo-contact, .linkedin-contact{
+    display: flex;    
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: clamp(1rem,3vw, 1.5rem);
+}
+.correo-contact > span:first-child, .linkedin-contact > span:first-child{
+
+    font-weight: bold;
+}
+.ubicacion{
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+}
+.ubicacion > span{
+    display: flex;
+}
+.ubicacion svg{
+    margin-right: 20px;
+}
+.btn-contact a{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-contact a:hover{
+    transform: scale(1.1);
+    background-color: #bebebe;
+}
+.btn-contact svg{
+    width: 30px;
+    height: 30px;    
+}
