@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('/src/estilos/section-about.css');
-@import url('/src/estilos/contact.css');
-@import url('/src/estilos/header.css');
-@import url('/src/estilos/portafolio.css');
+@import url('./src/estilos/section-about.css');
+@import url('./src/estilos/contact.css');
+@import url('./src/estilos/header.css');
+@import url('./src/estilos/portafolio.css');
 *{
     margin: 0;
     box-sizing: border-box;
