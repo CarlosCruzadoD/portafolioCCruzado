@@ -32,7 +32,7 @@
   display: flex;
   gap: 20px;
 }
-.main-btn button {
+.main-btn a {
   padding: 10px 40px;
   border-radius: 50px;
   border: none;
@@ -40,15 +40,15 @@
   transition: background 300ms ease-in-out;
   font-weight: 600;
 }
-.main-btn button:hover {
+.main-btn a:hover {
   transform: scale(1.05);
   transition: 100ms transform 100ms;
 }
-.main-btn button:first-child {
+.main-btn a:first-child {
   background: var(--primary);
   color: #e5e5e5;
 }
-.main-btn button:last-child {
+.main-btn a:last-child {
   background: var(--bg-secondary);
   color: var(--fg);
 }

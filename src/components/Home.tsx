@@ -16,8 +16,9 @@ export const Home = ({title, desc, btn}:HomeProps) => {
           {desc}
         </span>
         <div className="main-btn flex flex-wrap">
-          <button className="shadow">{btn}</button>
-          <button className="shadow">Github</button>
+          <a href='../assets/downloads/Currículum Vitae  - Carlos Cruzado.pdf'
+             download="Cv-Cruzado Diaz,Carlos.pdf" className="shadow">{btn}</a>
+          <a href='https://github.com/CarlosCruzadoD' target='_blank' className="shadow">Github</a>
         </div>
       </div>
     </section>

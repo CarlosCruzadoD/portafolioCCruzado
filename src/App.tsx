@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import es from './locals/es.json';
 import en from './locals/en.json';
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
   const [session, setSession] = useState(sessionStorage.getItem('leng') || 'es');
