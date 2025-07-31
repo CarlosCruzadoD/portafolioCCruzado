@@ -1,0 +1,9 @@
+.icon-container svg {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  background: var(--secondary);
+  fill: var(--primary);
+  transition: 500ms background 100ms, 500ms fill 100ms;
+}

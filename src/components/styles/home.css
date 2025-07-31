@@ -1,0 +1,54 @@
+.home {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fg);
+  transition: 500ms color 100ms;
+  background: url("../../assets/background-circle.svg") no-repeat center center
+    fixed;
+  background-color: var(--bg-primary);
+  transition: 500ms background 100ms;
+}
+.home-info {
+  background: var(--bg-primary);
+  box-shadow: 0px 0px 45px -5px var(--primary);
+  transition: 500ms background 100ms, 500ms box-shadow 500ms ;
+  border-radius: 50px;
+}
+.home-info h2 {
+  font-size: 3rem;
+}
+.home-info h3 {
+  font-size: 1.5rem;
+}
+.home-info span {
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+.main-btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.main-btn button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background 300ms ease-in-out;
+  font-weight: 600;
+}
+.main-btn button:hover {
+  transform: scale(1.05);
+  transition: 100ms transform 100ms;
+}
+.main-btn button:first-child {
+  background: var(--primary);
+  color: #e5e5e5;
+}
+.main-btn button:last-child {
+  background: var(--bg-secondary);
+  color: var(--fg);
+}

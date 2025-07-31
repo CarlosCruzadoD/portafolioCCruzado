@@ -1,0 +1,105 @@
+{
+  "header": {
+    "links": [
+      {
+        "name": "Home",
+        "path": "#home"
+      },
+      {
+        "name": "About Me",
+        "path": "#about"
+      },
+      {
+        "name": "Portfolio",
+        "path": "#projects"
+      },
+      {
+        "name": "Contact",
+        "path": "#contact"
+      }
+    ]
+  },
+  "home": {
+    "title": "Hi, i'm",
+    "description": "Software development student",
+    "button": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a Systems Engineering student with a passion for technology and web development. I love learning new technologies and applying them to real-world projects. I'm currently focused on improving my skills as a full-stack developer, exploring both the frontend and backend.",
+    "skills": "Skills and Technologies",
+    "tools": "Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "All the works I have participated in",
+    "projects": [
+      {
+        "title": "Biblioteca Virtual",
+        "type": "Personal Project",
+        "tech": [
+          "JavaScript",
+          "React",
+          "HTML",
+          "CSS",
+          "Node.js",
+          "Express",
+          "MySQL"
+        ],
+        "desc": "This project is a FullStack application to showcase my skills, both in the backend and frontend. It's an application that allows you to save PDF files to a database.",
+        "image": [
+          "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img1.png",
+          "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img2.png",
+          "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img3.png",
+          "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img4.png"
+        ],
+        "link": "https://elaborate-cupcake-09c31a.netlify.app/",
+        "github": "https://github.com/CarlosCruzadoD/biblioteca-documents"
+      },
+      {
+        "title": "Cuentos Historicos",
+        "type": "University Project",
+        "tech": ["JavaScript", "HTML", "CSS"],
+        "desc": "This project is a university final project. It is written in Java and connects to MySQL to store data. The application allows you to make sales, add, modify, and delete products from the store, users, and more.",
+        "image": [
+          "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img1.png",
+          "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img2.png",
+          "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img3.png",
+          "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img4.png",
+          "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img5.png"
+        ],
+        "link": "",
+        "github": "https://github.com/CarlosCruzadoD/CuentosHistoricos"
+      },
+      {
+        "title": "Tienda Martita",
+        "type": "University project",
+        "tech": ["Java", "MySQL"],
+        "desc": "This project is a university final project. It is developed with HTML, CSS, and pure JavaScript. The page is a storytelling tool designed for use by children with visual impairments and keyboard skills. Entering each story will start an audio narration.",
+        "image": [
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img1.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img2.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img3.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img4.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img5.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img6.png",
+          "./src/img/imageProyects/TiendaMartita/TiendaMartita-img7.png"
+        ],
+        "link": "",
+        "github": "https://github.com/CarlosCruzadoD/CuentosHistoricos"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Mesagge",
+      "button": "Send Mesagge",
+      "success": "Message sent successfully.",
+      "error": "Error sending message, please try again."
+    }
+  }
+}

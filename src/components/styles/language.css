@@ -1,0 +1,61 @@
+.trigger {
+  background: var(--bg-tertiary);
+  position: relative;
+  min-width: 100px;
+  height: 44px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 22px;
+  transition: 600ms border-radius 200ms, 700ms color 200ms,
+    350ms min-width 400ms, 400ms background 100ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--fg);
+}
+.trigger:hover {
+  min-width: 170px;
+  justify-content: flex-between;
+  border-radius: 22px 22px 0 0;
+  transition: 500ms border-radius 0ms, 350ms min-width 0ms;
+}
+
+.lista {
+  min-width: 170px;
+  position: absolute;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-tertiary);
+  border-radius: 0 0 22px 22px;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 350ms transform 0ms, 1.3s min-width 0ms;
+}
+.trigger:hover .lista {
+  transform: scaleY(1);
+  transition: 350ms transform 350ms, 350ms min-width 0ms;
+}
+
+.lista li button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 15px;
+  position: relative;
+  cursor: pointer;
+  border-left: 0px solid var(--shadow);
+  transition: 0.2s border-left 0ms;
+}
+.lista li button img {
+  margin-right: 10px;
+}
+.lista li button:hover {
+  border-left: 5px solid var(--bg-tertiary);
+}
+.lista img {
+  max-width: 20px;
+}

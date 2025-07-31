@@ -1,0 +1,56 @@
+.projects {
+  background-color: var(--bg-secondary);
+  color: var(--fg);
+  transition: 500ms background 100ms, 500ms color 100ms;
+}
+.projects h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.card-container {
+  padding: 10px;
+  border-radius: 30px;
+  background: var(--bg-primary);
+  transition: 500ms background 100ms;
+}
+.card-img-container {
+  border-radius: 20px;
+}
+.card-img-container img {
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+}
+.tag-container span {
+  padding: 2px 15px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.card-btn-container button {
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.card-btn-container button svg {
+  width: 20px;
+  height: 20px;
+}
+.card-btn-container button:first-child {
+  border: 1px solid var(--border);
+  color: var(--fg);
+  transition: 500ms color 100ms;
+}
+.card-btn-container button:last-child {
+  background: var(--primary);
+}
+.card-btn-container button:first-child svg {
+  fill: var(--fg);
+  transition: 500ms fill 100ms;
+}
+.card-btn-container button:last-child svg {
+  fill: #e5e5e5;
+}

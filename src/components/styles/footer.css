@@ -1,0 +1,5 @@
+footer {
+  background: var(--bg-secondary);
+  color: var(--fg);
+  transition: 500ms background 100ms, 500ms color 100ms;
+}

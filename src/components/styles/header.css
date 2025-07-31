@@ -1,0 +1,190 @@
+header {
+  color: var(--fg);
+  transition: 700ms color 100ms, 700ms background 600ms;
+}
+.hamburguer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.hamburguer-menu div {
+  width: 35px;
+  height: 7px;
+  background: var(--fg);
+  border-radius: 10px;
+  transform-origin: left;
+  transform: rotateZ(0);
+  transition: 600ms transform 100ms, 300ms background 100ms;
+}
+
+.menu-container input:checked + .hamburguer-menu .menu-top {
+  background: var(--fg);
+  transform: translateY(-3px) rotate(43deg);
+  transition: 600ms transform 100ms, 300ms background 100ms;
+}
+.menu-container input:checked + label .menu-bottom {
+  background: var(--fg);
+  transform: translateY(3px) rotate(-43deg);
+  transition: 600ms transform 100ms, 300ms background 100ms;
+}
+
+.menu-container input:checked + label .menu-middle {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: 200ms opacity 0ms, 400ms transform 0ms;
+}
+.hamburguer-menu .menu-top {
+  transform: translateY(-3px);
+}
+.hamburguer-menu .menu-middle {
+  margin: 2px 0;
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 200ms opacity 300ms, 400ms transform 200ms;
+}
+.hamburguer-menu .menu-bottom {
+  transform: translateY(3px);
+}
+.list-menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: 400ms transform 400ms, 500ms opacity 200ms;
+  z-index: 999;
+  padding: 10px;
+}
+.list-menu-hamburguer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--bg-primary);
+  border-radius: 35px;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+.menu-container input:checked ~ .list-menu-container {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 400ms transform 100ms, 500ms opacity 200ms;
+}
+
+.list-menu-hamburguer ul li {
+  transform: translateX(-50%);
+  opacity: 0;
+  cursor: pointer;
+  padding: 20px 10px;
+  border-radius: 0 0 0 10px;
+  position: relative;
+  transition: 100ms transform 100ms, 300ms opacity 50ms;
+}
+.list-menu-hamburguer ul li::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: var(--primary);
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  transition: 100ms height 100ms, 100ms width 0ms;
+}
+.list-menu-hamburguer ul li:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  transition: 100ms height 00ms, 100ms width 100ms;
+}
+.menu-container input:checked ~ .list-menu-container ul li {
+  transform: translateX(0);
+  opacity: 1;
+  transition: 400ms transform 400ms, 300ms opacity 400ms;
+}
+
+.background-list-hamburguer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 0;
+  height: 100%;
+  border-radius: 0px;
+  transform-origin: left;
+  transition: 500ms min-width 200ms, 500ms background 200ms,
+    20ms border-radius 700ms;
+}
+
+.list-menu-hamburguer ul li:hover .background-list-hamburguer {
+  background: violet;
+  min-width: 100%;
+  border-radius: 0 50px 50px 0;
+  border-left: 0px solid black;
+  transition: 500ms min-width 200ms, 500ms background 200ms,
+    100ms border-radius 0ms;
+}
+.list-menu-hamburguer ul li:hover .background-list-hamburguer::after {
+  background: rgba(115, 115, 115, 0.555);
+}
+.list-header {
+  /* background: var(--bg-primary); */
+  transition: 400ms background 100ms;
+}
+
+.theme-selection {
+  background: var(--bg-primary);
+  box-shadow: inset 3px 3px 27.5px 3px var(--bg-tertiary);
+  padding: 7px 10px;
+  border-radius: 80px;
+  display: flex;
+  width: 120px;
+  transition: 400ms background 100ms, 400ms box-shadow 100ms;
+}
+.theme-selection button {
+  position: relative;
+  width: 100%;
+}
+.icons-switch {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.circle {
+  background-color: var(--bg-secondary);
+  border-radius: 99px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 45px;
+  height: 45px;
+  transition: 250ms transform 50ms;
+  transform: translate(-10%, -50%);
+  pointer-events: none;
+}
+
+.theme-selection .dark {
+  transform: translate(110%, -50%);
+  transition: 250ms transform 50ms;
+}
+
+.theme-selection svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--fg);
+  z-index: 100;
+  transition: 700ms fill 100ms;
+}
