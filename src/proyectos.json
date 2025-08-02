@@ -1,43 +1,93 @@
 [
-    {
-        "titulo": "Biblioteca Virtual",
-        "tipo": "Proyecto personal",
-        "tecnologias": ["JavaScript", "React", "HTML", "CSS", "Node.js", "Express", "MySQL"],
-        "descripcion": "Este proyecto es una aplicacion FullStack para demostrar mis habilidades, tanto el en backend como en el frontEnd.\n Es una aplicacion que sirve para poder guardar archivos pdf en una Base de datos.",
-        "imagen": ["./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img1.png",
-        "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img2.png",
-        "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img3.png",
-        "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img4.png"],
-        "link": "https://elaborate-cupcake-09c31a.netlify.app/",
-        "github":"https://github.com/CarlosCruzadoD/biblioteca-documents"
-    },
-    {
-        "titulo": "Cuentos Historicos",
-        "tipo": "Proyecto universitario",
-        "tecnologias": ["JavaScript", "HTML", "CSS"],
-        "descripcion": "Este proyecto, es un trabajo final de la universidad. Esta desarrollado con HTML, CSS y JavaScript puro.\n La pagina es un cuenta cuentos diseñado para que lo puedan usar niños con discapacidad visual, manejo en el teclado. Al entrar en cada cuento se iniciara un audio que narrará el cuento.",
-        "imagen": ["./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img1.png", 
-        "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img2.png",
-        "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img3.png",
-        "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img4.png",
-        "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img5.png"],
-        "link": "",
-        "github":"https://github.com/CarlosCruzadoD/CuentosHistoricos"
-    },
-    {
-        "titulo": "Tienda Martita",
-        "tipo": "Proyecto universitario",
-        "tecnologias": ["Java", "MySQL"],
-        "descripcion": "Este proyecto, es un trabajo final de la universidad. Esta con el lenguaje Java, a su vez, cuenta con una conexión a MySQL para poder almacenar los datos.\n La aplicación permite realizar ventas; agregar, modificar, eliminar productos de la tienda, usuarios, etc. ",
-        "imagen": ["./src/img/imageProyects/TiendaMartita/TiendaMartita-img1.png",
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img2.png",
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img3.png", 
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img4.png",
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img5.png",
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img6.png",
-        "./src/img/imageProyects/TiendaMartita/TiendaMartita-img7.png"],
-        "link": "",
-        "github":"https://github.com/CarlosCruzadoD/CuentosHistoricos"
-    }
+  {
+    "titulo": "Biblioteca Virtual",
+    "tipo": "Proyecto personal",
+    "tecnologias": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Express",
+      "MySQL"
+    ],
+    "descripcion": "Este proyecto es una aplicacion FullStack para demostrar mis habilidades, tanto el en backend como en el frontEnd.\n Es una aplicacion que sirve para poder guardar archivos pdf en una Base de datos.",
+    "imagen": [
+      "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img1.png",
+      "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img2.png",
+      "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img3.png",
+      "./src/img/imageProyects/BibliotecaVirtual/BibliotecaVirtual-img4.png"
+    ],
+    "link": "https://elaborate-cupcake-09c31a.netlify.app/",
+    "github": "https://github.com/CarlosCruzadoD/biblioteca-documents"
+  },
+  {
+    "titulo": "Cuentos Historicos",
+    "tipo": "Proyecto universitario",
+    "tecnologias": ["JavaScript", "HTML", "CSS"],
+    "descripcion": "Este proyecto, es un trabajo final de la universidad. Esta desarrollado con HTML, CSS y JavaScript puro.\n La pagina es un cuenta cuentos diseñado para que lo puedan usar niños con discapacidad visual, manejo en el teclado. Al entrar en cada cuento se iniciara un audio que narrará el cuento.",
+    "imagen": [
+      "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img1.png",
+      "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img2.png",
+      "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img3.png",
+      "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img4.png",
+      "./src/img/imageProyects/CuentosHistoricos/CuentosHistoricos-img5.png"
+    ],
+    "link": "",
+    "github": "https://github.com/CarlosCruzadoD/CuentosHistoricos"
+  },
+  {
+    "titulo": "Tienda Martita",
+    "tipo": "Proyecto universitario",
+    "tecnologias": ["Java", "MySQL"],
+    "descripcion": "Este proyecto, es un trabajo final de la universidad. Esta con el lenguaje Java, a su vez, cuenta con una conexión a MySQL para poder almacenar los datos.\n La aplicación permite realizar ventas; agregar, modificar, eliminar productos de la tienda, usuarios, etc. ",
+    "imagen": [
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img1.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img2.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img3.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img4.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img5.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img6.png",
+      "./src/img/imageProyects/TiendaMartita/TiendaMartita-img7.png"
+    ],
+    "link": "",
+    "github": "https://github.com/CarlosCruzadoD/CuentosHistoricos"
+  },
+  {
+    "titulo": "Landing Page IE",
+    "tipo": "Proyecto personal",
+    "tecnologias": ["Astro", "JavaScript", "HTML", "CSS"],
+    "descripcion": "Este proyecto es una landing page desarrollada con Astro. Cuenta con un diseño moderno y responsive, orientado a una institución educativa para presentar información relevante de manera clara y atractiva.\nFue desplegado en GitHub Pages, lo que permite su acceso desde cualquier dispositivo con conexión a internet.",
+    "imagen": [
+      "./src/img/imageProyects/LandingPageIE/LandingPageIE-img1.png",
+      "./src/img/imageProyects/LandingPageIE/LandingPageIE-img2.png",
+      "./src/img/imageProyects/LandingPageIE/LandingPageIE-img3.png",
+      "./src/img/imageProyects/LandingPageIE/LandingPageIE-img4.png"
+    ],
+    "link": "https://carloscruzadod.github.io/landing-page-astro-ie/",
+    "github": "https://github.com/CarlosCruzadoD/landing-page-astro-ie"
+  },
+  {
+    "titulo": "Dashboard Libreria El Amauta",
+    "tipo": "Proyecto universitario",
+    "tecnologias": ["Java", "SpringBoot", "TailwindCSS"],
+    "descripcion": "Este proyecto es un dashboard desarrollado con Spring Boot en Java, como parte de mi formación académica. Permite la gestión de datos a través de controladores REST, validaciones con anotaciones y conexión a una base de datos MySQL.\nEl sistema fue diseñado para mostrar estadísticas y administrar información de manera eficiente, aplicando buenas prácticas en la arquitectura y organización del código.",
+    "imagen": [
+      "./src/img/imageProyects/DashboardAmauta/DashboardAmauta-img1.png",
+      "./src/img/imageProyects/DashboardAmauta/DashboardAmauta-img2.png",
+      "./src/img/imageProyects/DashboardAmauta/DashboardAmauta-img3.png",
+      "./src/img/imageProyects/DashboardAmauta/DashboardAmauta-img4.png"
+    ],
+    "link": "",
+    "github": "https://github.com/CarlosCruzadoD/springboot-fullstack"
+  },
+  {
+    "titulo": "AloSisteas",
+    "tipo": "Experiencia laboral",
+    "tecnologias": ["React", "Node.js", "JavaScript"],
+    "descripcion": "Durante mi experiencia en Alosistemas, colaboré en el desarrollo backend y móvil utilizando Node.js, Express, React Native y MySQL. Implementé APIs RESTful, autenticación con JWT e integración de funcionalidades móviles como geolocalización y sensores, fortaleciendo mis habilidades en programación y trabajo en equipo.",
+    "imagen": [],
+    "link": "",
+    "github": "https://github.com/alosistemas"
+  }
 ]
-
